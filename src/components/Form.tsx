@@ -89,7 +89,7 @@ function Form( { state, dispatch } : FormProps ) {
                 <input 
                 id="name"
                 type="text"
-                placeholder="Ej. Comida (Ensalada, Tacos), Ejercicio (Pesas, Bici)"
+                placeholder={activity.category === 1 ? 'Ensalada, Tacos...' : 'Pesas, Natación...'}
                 className="w-full p-2 border border-slate-300 rounded-lg bg-white"
                 value={activity.name}
                 onChange={ handleChange }
