@@ -1,8 +1,8 @@
 //COMPONENTE FORM
 import { useState, useEffect, ChangeEvent, FormEvent, Dispatch } from 'react'
-import { ActivityState, ActivityActions } from '../reducers/activity-reducer'
-import { categories } from "../data/data"
+import type { ActivityState, ActivityActions } from '../reducers/activity-reducer'
 import type { Activity } from "../types/types"
+import { categories } from "../data/data"
 //uuid (Universally Unique Identifier): Libreria de generación de Id's únicos [npm i uuid]
 import { v4 as uuidv4 } from 'uuid' 
 

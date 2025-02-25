@@ -1,8 +1,8 @@
 //COMPONENT ACTIVITY-LIST
 import { useMemo, Dispatch } from "react"
-import { ActivityActions } from '../reducers/activity-reducer'
-import { categories } from "../data/data"
+import type { ActivityActions } from '../reducers/activity-reducer'
 import type { Activity } from "../types/types"
+import { categories } from "../data/data"
 //heroicons: Libreria Tailwind-Iconos [npm i @heroicons/react]
 import { PencilSquareIcon, XCircleIcon } from '@heroicons/react/24/outline'
 
