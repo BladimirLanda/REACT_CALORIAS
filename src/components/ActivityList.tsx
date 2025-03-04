@@ -3,7 +3,7 @@ import { useMemo, Dispatch } from "react"
 import type { ActivityActions } from '../reducers/activity-reducer'
 import type { Activity } from "../types/types"
 import { categories } from "../data/data"
-//heroicons: Libreria Tailwind-Iconos [npm i @heroicons/react]
+//heroicons: Libreria Tailwind-Iconos React [npm i @heroicons/react]
 import { PencilSquareIcon, XCircleIcon } from '@heroicons/react/24/outline'
 
 //Type
