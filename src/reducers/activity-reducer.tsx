@@ -26,7 +26,7 @@ const localStorageActivities = () : Activity[] => {
     return activities ? JSON.parse(activities) : [];
 }
 
-//Types
+//Types ('|' : Encadenamiento Types)
 //--Actions
 export type ActivityActions = {
     type: 'save-activity',
